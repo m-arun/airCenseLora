@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+message airCenseProto{
+	required float NO2 = 1;
+	required float CO = 2;
+	required float temperature = 3;
+	required float humidity = 4;
+	required int32 CO2 = 5;
+	required float PM2_5 = 6;
+	required float PM10 = 7;
+}
+
